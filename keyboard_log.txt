@@ -1,0 +1,1085 @@
+2025-03-24 10:48:08,866 - Keyboard listener started
+2025-03-24 10:48:51,318 - Key pressed: i
+2025-03-24 10:48:51,430 - Key released: i
+2025-03-24 10:48:51,655 - Key pressed: h
+2025-03-24 10:48:51,746 - Key released: h
+2025-03-24 10:48:51,836 - Key pressed: t
+2025-03-24 10:48:51,949 - Key released: t
+2025-03-24 10:48:52,174 - Key pressed: e
+2025-03-24 10:48:52,332 - Key released: e
+2025-03-24 10:48:52,805 - Key pressed: Key.cmd
+2025-03-24 10:48:52,919 - Key released: Key.cmd
+2025-03-24 10:48:57,811 - Key pressed: Key.cmd
+2025-03-24 10:48:58,149 - Key released: Key.cmd
+2025-03-24 10:48:58,352 - Key pressed: Key.cmd
+2025-03-24 10:48:58,622 - Key released: Key.cmd
+2025-03-24 10:48:58,893 - Key pressed: Key.cmd
+2025-03-24 10:48:59,121 - Key released: Key.cmd
+2025-03-24 10:49:06,895 - Key pressed: Key.ctrl
+2025-03-24 10:49:07,098 - Key pressed: Key.backspace
+2025-03-24 10:49:07,211 - Key released: Key.backspace
+2025-03-24 10:49:07,391 - Key released: Key.ctrl
+2025-03-24 10:49:07,864 - Key pressed: Key.cmd
+2025-03-24 10:49:08,091 - Key released: Key.cmd
+2025-03-24 10:50:25,371 - Key pressed: Key.cmd
+2025-03-24 10:50:25,507 - Key released: Key.cmd
+2025-03-24 10:52:28,923 - Keyboard listener stopped
+2025-03-24 10:52:30,152 - Keyboard listener started
+2025-03-24 10:52:36,552 - Key released: e
+2025-03-24 10:52:36,755 - Key released: e
+2025-03-24 10:52:37,364 - Unhandled exception in listener callback
+Traceback (most recent call last):
+  File "/home/aaron/02_Work/01_Pending/pytypesound/venv/lib/python3.13/site-packages/pynput/_util/__init__.py", line 230, in inner
+    return f(self, *args, **kwargs)
+  File "/home/aaron/02_Work/01_Pending/pytypesound/venv/lib/python3.13/site-packages/pynput/_util/xorg.py", line 472, in _handler
+    self._handle_message(self._display_stop, event, injected)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aaron/02_Work/01_Pending/pytypesound/venv/lib/python3.13/site-packages/pynput/keyboard/_xorg.py", line 581, in _handle_message
+    self.on_release(key, injected)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/aaron/02_Work/01_Pending/pytypesound/venv/lib/python3.13/site-packages/pynput/_util/__init__.py", line 146, in inner
+    if f(*args) is False:
+       ~^^^^^^^
+  File "/home/aaron/02_Work/01_Pending/pytypesound/venv/lib/python3.13/site-packages/pynput/_util/__init__.py", line 291, in <lambda>
+    return lambda *a: f(*a[:actual])
+                      ~^^^^^^^^^^^^^
+  File "/home/aaron/02_Work/01_Pending/pytypesound/listener/main.py", line 66, in _on_release
+    self.logger.info(f"Key released: {key_char}")
+                                      ^^^^^^^^
+UnboundLocalError: cannot access local variable 'key_char' where it is not associated with a value
+2025-03-24 10:54:15,618 - Keyboard listener stopped
+2025-03-24 10:54:16,696 - Keyboard listener started
+2025-03-24 10:54:26,958 - Key released: d
+2025-03-24 10:54:27,250 - Key released: d
+2025-03-24 10:54:27,453 - Key released: d
+2025-03-24 10:54:27,700 - Key released: d
+2025-03-24 10:54:28,041 - Key released: not found
+2025-03-24 10:54:34,091 - Key released: t
+2025-03-24 10:54:34,315 - Key released: h
+2025-03-24 10:54:34,384 - Key released: e
+2025-03-24 10:54:34,496 - Key released: not found
+2025-03-24 10:54:34,787 - Key released: i
+2025-03-24 10:54:34,855 - Key released: n
+2025-03-24 10:54:35,057 - Key released: t
+2025-03-24 10:54:35,305 - Key released: e
+2025-03-24 10:54:35,372 - Key released: r
+2025-03-24 10:54:35,755 - Key released: n
+2025-03-24 10:54:35,845 - Key released: a
+2025-03-24 10:54:36,092 - Key released: t
+2025-03-24 10:54:36,295 - Key released: i
+2025-03-24 10:54:36,296 - Key released: o
+2025-03-24 10:54:36,362 - Key released: n
+2025-03-24 10:54:36,565 - Key released: a
+2025-03-24 10:54:36,677 - Key released: l
+2025-03-24 10:54:37,084 - Key released: not found
+2025-03-24 10:54:59,877 - Key released: not found
+2025-03-24 10:55:01,136 - Key released: not found
+2025-03-24 10:55:01,315 - Key released: not found
+2025-03-24 10:55:01,495 - Key released: not found
+2025-03-24 10:55:01,675 - Key released: not found
+2025-03-24 10:55:01,855 - Key released: not found
+2025-03-24 10:55:02,080 - Key released: not found
+2025-03-24 10:55:02,102 - Key released: not found
+2025-03-24 10:55:02,486 - Key released: not found
+2025-03-24 10:57:43,691 - Key released: not found
+2025-03-24 11:02:41,665 - Key released: not found
+2025-03-24 11:02:45,660 - Key released: not found
+2025-03-24 11:02:48,426 - Key released: g
+2025-03-24 11:02:48,606 - Key released: e
+2025-03-24 11:02:48,812 - Key released: t
+2025-03-24 11:02:48,944 - Key released: not found
+2025-03-24 11:02:49,396 - Key released: b
+2025-03-24 11:02:49,462 - Key released: e
+2025-03-24 11:02:49,596 - Key released: not found
+2025-03-24 11:02:50,001 - Key released: a
+2025-03-24 11:02:50,091 - Key released: not found
+2025-03-24 11:02:50,271 - Key released: v
+2025-03-24 11:02:50,473 - Key released: e
+2025-03-24 11:02:50,923 - Key released: r
+2025-03-24 11:02:50,990 - Key released: y
+2025-03-24 11:02:51,170 - Key released: not found
+2025-03-24 11:02:51,599 - Key released: m
+2025-03-24 11:02:51,733 - Key released: e
+2025-03-24 11:02:51,980 - Key released: m
+2025-03-24 11:02:52,340 - Key released: o
+2025-03-24 11:02:52,454 - Key released: r
+2025-03-24 11:02:53,645 - Key released: not found
+2025-03-24 11:02:53,736 - Key released: not found
+2025-03-24 11:02:55,156 - Key released: a
+2025-03-24 11:02:55,400 - Key released: n
+2025-03-24 11:02:55,467 - Key released: d
+2025-03-24 11:02:55,557 - Key released: not found
+2025-03-24 11:02:55,714 - Key released: e
+2025-03-24 11:02:56,074 - Key released: x
+2025-03-24 11:02:56,457 - Key released: t
+2025-03-24 11:02:56,795 - Key released: r
+2025-03-24 11:02:56,974 - Key released: e
+2025-03-24 11:02:57,671 - Key released: m
+2025-03-24 11:02:57,761 - Key released: e
+2025-03-24 11:02:58,031 - Key released: l
+2025-03-24 11:02:58,302 - Key released: y
+2025-03-24 11:02:58,548 - Key released: not found
+2025-03-24 11:02:58,998 - Key released: l
+2025-03-24 11:02:59,155 - Key released: o
+2025-03-24 11:02:59,269 - Key released: w
+2025-03-24 11:02:59,609 - Key released: not found
+2025-03-24 11:03:00,124 - Key released: m
+2025-03-24 11:03:00,213 - Key released: e
+2025-03-24 11:03:00,415 - Key released: m
+2025-03-24 11:03:00,775 - Key released: o
+2025-03-24 11:03:00,887 - Key released: r
+2025-03-24 11:03:01,090 - Key released: y
+2025-03-24 11:03:01,360 - Key released: not found
+2025-03-24 11:03:03,744 - Key released: p
+2025-03-24 11:03:03,857 - Key released: a
+2025-03-24 11:03:04,082 - Key released: c
+2025-03-24 11:03:04,374 - Key released: k
+2025-03-24 11:03:04,600 - Key released: a
+2025-03-24 11:03:04,915 - Key released: g
+2025-03-24 11:03:05,251 - Key released: e
+2025-03-24 11:03:05,297 - Key released: not found
+2025-03-24 11:03:05,656 - Key released: f
+2025-03-24 11:03:05,903 - Key released: o
+2025-03-24 11:03:06,016 - Key released: r
+2025-03-24 11:03:06,083 - Key released: not found
+2025-03-24 11:03:06,331 - Key released: p
+2025-03-24 11:03:06,557 - Key released: l
+2025-03-24 11:03:06,691 - Key released: a
+2025-03-24 11:03:06,848 - Key released: y
+2025-03-24 11:03:07,073 - Key released: not found
+2025-03-24 11:03:08,153 - Key released: s
+2025-03-24 11:03:08,490 - Key released: o
+2025-03-24 11:03:08,670 - Key released: u
+2025-03-24 11:03:09,078 - Key released: n
+2025-03-24 11:03:09,100 - Key released: d
+2025-03-24 11:03:09,570 - Key released: s
+2025-03-24 11:03:09,637 - Key released: not found
+2025-03-24 11:03:10,087 - Key released: q
+2025-03-24 11:03:10,268 - Key released: u
+2025-03-24 11:03:10,627 - Key released: i
+2025-03-24 11:03:10,718 - Key released: c
+2025-03-24 11:03:10,942 - Key released: l
+2025-03-24 11:03:11,414 - Key released: not found
+2025-03-24 11:03:11,707 - Key released: k
+2025-03-24 11:03:11,932 - Key released: l
+2025-03-24 11:03:12,179 - Key released: y
+2025-03-24 11:03:12,404 - Key released: not found
+2025-03-24 11:03:12,788 - Key released: a
+2025-03-24 11:03:13,079 - Key released: d
+2025-03-24 11:03:13,283 - Key released: not found
+2025-03-24 11:03:13,328 - Key released: not found
+2025-03-24 11:03:13,574 - Key released: n
+2025-03-24 11:03:13,709 - Key released: d
+2025-03-24 11:03:14,002 - Key released: not found
+2025-03-24 11:03:14,204 - Key released: not found
+2025-03-24 11:03:14,316 - Key released: a
+2025-03-24 11:03:14,609 - Key released: n
+2025-03-24 11:03:14,721 - Key released: d
+2025-03-24 11:03:14,789 - Key released: not found
+2025-03-24 11:03:15,126 - Key released: e
+2025-03-24 11:03:15,666 - Key released: f
+2025-03-24 11:03:15,913 - Key released: i
+2025-03-24 11:03:16,432 - Key released: not found
+2025-03-24 11:03:16,521 - Key released: f
+2025-03-24 11:03:16,703 - Key released: i
+2025-03-24 11:03:16,858 - Key released: c
+2025-03-24 11:03:17,151 - Key released: i
+2025-03-24 11:03:17,465 - Key released: e
+2025-03-24 11:03:17,915 - Key released: n
+2025-03-24 11:03:18,028 - Key released: t
+2025-03-24 11:03:18,163 - Key released: l
+2025-03-24 11:03:18,410 - Key released: y
+2025-03-24 11:03:18,928 - Key released: not found
+2025-03-24 11:08:10,736 - Key released: not found
+2025-03-24 11:08:10,964 - Key released: not found
+2025-03-24 11:08:31,978 - Key released: not found
+2025-03-24 11:08:33,260 - Keyboard listener stopped
+2025-03-24 11:37:19,235 - Keyboard listener started
+2025-03-24 11:37:34,571 - Key released: Key.cmd
+2025-03-24 11:37:34,571 - Unhandled exception in listener callback
+Traceback (most recent call last):
+  File "/home/aaron/02_Work/01_Pending/pytypesound/venv/lib/python3.13/site-packages/pynput/_util/__init__.py", line 230, in inner
+    return f(self, *args, **kwargs)
+  File "/home/aaron/02_Work/01_Pending/pytypesound/venv/lib/python3.13/site-packages/pynput/_util/xorg.py", line 472, in _handler
+    self._handle_message(self._display_stop, event, injected)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aaron/02_Work/01_Pending/pytypesound/venv/lib/python3.13/site-packages/pynput/keyboard/_xorg.py", line 581, in _handle_message
+    self.on_release(key, injected)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/aaron/02_Work/01_Pending/pytypesound/venv/lib/python3.13/site-packages/pynput/_util/__init__.py", line 146, in inner
+    if f(*args) is False:
+       ~^^^^^^^
+  File "/home/aaron/02_Work/01_Pending/pytypesound/venv/lib/python3.13/site-packages/pynput/_util/__init__.py", line 291, in <lambda>
+    return lambda *a: f(*a[:actual])
+                      ~^^^^^^^^^^^^^
+  File "/home/aaron/02_Work/01_Pending/pytypesound/listener/main.py", line 65, in _on_release
+    callback(key, 'release')
+    ~~~~~~~~^^^^^^^^^^^^^^^^
+TypeError: 'bool' object is not callable
+2025-03-24 11:40:20,940 - Keyboard listener stopped
+2025-03-24 11:40:22,072 - Keyboard listener started
+2025-03-24 11:40:28,522 - Key released: d
+2025-03-24 11:40:28,522 - Unhandled exception in listener callback
+Traceback (most recent call last):
+  File "/home/aaron/02_Work/01_Pending/pytypesound/venv/lib/python3.13/site-packages/pynput/_util/__init__.py", line 230, in inner
+    return f(self, *args, **kwargs)
+  File "/home/aaron/02_Work/01_Pending/pytypesound/venv/lib/python3.13/site-packages/pynput/_util/xorg.py", line 472, in _handler
+    self._handle_message(self._display_stop, event, injected)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aaron/02_Work/01_Pending/pytypesound/venv/lib/python3.13/site-packages/pynput/keyboard/_xorg.py", line 581, in _handle_message
+    self.on_release(key, injected)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/aaron/02_Work/01_Pending/pytypesound/venv/lib/python3.13/site-packages/pynput/_util/__init__.py", line 146, in inner
+    if f(*args) is False:
+       ~^^^^^^^
+  File "/home/aaron/02_Work/01_Pending/pytypesound/venv/lib/python3.13/site-packages/pynput/_util/__init__.py", line 291, in <lambda>
+    return lambda *a: f(*a[:actual])
+                      ~^^^^^^^^^^^^^
+  File "/home/aaron/02_Work/01_Pending/pytypesound/listener/main.py", line 65, in _on_release
+    callback(key, 'release')
+    ~~~~~~~~^^^^^^^^^^^^^^^^
+TypeError: 'bool' object is not callable
+2025-03-24 11:44:34,409 - Keyboard listener stopped
+2025-03-24 11:44:35,999 - Keyboard listener started
+2025-03-24 11:44:42,038 - Key released: t
+2025-03-24 11:44:42,038 - Unhandled exception in listener callback
+Traceback (most recent call last):
+  File "/home/aaron/02_Work/01_Pending/pytypesound/venv/lib/python3.13/site-packages/pynput/_util/__init__.py", line 230, in inner
+    return f(self, *args, **kwargs)
+  File "/home/aaron/02_Work/01_Pending/pytypesound/venv/lib/python3.13/site-packages/pynput/_util/xorg.py", line 472, in _handler
+    self._handle_message(self._display_stop, event, injected)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aaron/02_Work/01_Pending/pytypesound/venv/lib/python3.13/site-packages/pynput/keyboard/_xorg.py", line 581, in _handle_message
+    self.on_release(key, injected)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/aaron/02_Work/01_Pending/pytypesound/venv/lib/python3.13/site-packages/pynput/_util/__init__.py", line 146, in inner
+    if f(*args) is False:
+       ~^^^^^^^
+  File "/home/aaron/02_Work/01_Pending/pytypesound/venv/lib/python3.13/site-packages/pynput/_util/__init__.py", line 291, in <lambda>
+    return lambda *a: f(*a[:actual])
+                      ~^^^^^^^^^^^^^
+  File "/home/aaron/02_Work/01_Pending/pytypesound/listener/main.py", line 65, in _on_release
+    callback(key, 'release')
+    ~~~~~~~~^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not callable
+2025-03-24 11:45:04,178 - Keyboard listener stopped
+2025-03-24 11:45:49,311 - Keyboard listener started
+2025-03-24 11:45:51,475 - Key released: e
+2025-03-24 11:45:52,308 - Key released: e
+2025-03-24 11:45:52,804 - Key released: Key.cmd
+2025-03-24 11:46:29,253 - Key released: d
+2025-03-24 11:46:29,592 - Key released: d
+2025-03-24 11:46:29,907 - Key released: d
+2025-03-24 11:46:31,077 - Key released: i
+2025-03-24 11:46:31,617 - Key released: e
+2025-03-24 11:46:31,685 - Key released: o
+2025-03-24 11:46:32,270 - Key released: Key.cmd
+2025-03-24 11:50:01,775 - Keyboard listener stopped
+2025-03-24 11:50:02,968 - Keyboard listener started
+2025-03-24 11:50:05,668 - Key released: w
+2025-03-24 11:50:06,415 - Key released: w
+2025-03-24 11:50:07,872 - Key released: t
+2025-03-24 11:50:08,075 - Key released: h
+2025-03-24 11:50:08,255 - Key released: e
+2025-03-24 11:50:10,122 - Key released: l
+2025-03-24 11:50:10,325 - Key released: e
+2025-03-24 11:50:10,484 - Key released: o
+2025-03-24 11:50:10,595 - Key released: n
+2025-03-24 11:50:10,729 - Key released: g
+2025-03-24 11:50:10,865 - Key released: Key.space
+2025-03-24 11:50:11,901 - Key released: t
+2025-03-24 11:50:12,035 - Key released: h
+2025-03-24 11:50:12,126 - Key released: e
+2025-03-24 11:50:12,215 - Key released: Key.space
+2025-03-24 11:50:12,575 - Key released: p
+2025-03-24 11:50:12,803 - Key released: o
+2025-03-24 11:50:13,204 - Key released: w
+2025-03-24 11:50:13,476 - Key released: e
+2025-03-24 11:50:13,565 - Key released: r
+2025-03-24 11:50:13,701 - Key released: Key.space
+2025-03-24 11:50:13,947 - Key released: f
+2025-03-24 11:50:14,037 - Key released: u
+2025-03-24 11:50:14,442 - Key released: l
+2025-03-24 11:50:14,893 - Key released: l
+2025-03-24 11:50:15,184 - Key released: Key.space
+2025-03-24 11:50:15,433 - Key released: t
+2025-03-24 11:50:15,523 - Key released: h
+2025-03-24 11:50:15,657 - Key released: e
+2025-03-24 11:50:15,724 - Key released: Key.space
+2025-03-24 11:50:16,086 - Key released: u
+2025-03-24 11:50:16,333 - Key released: n
+2025-03-24 11:50:16,422 - Key released: d
+2025-03-24 11:50:16,738 - Key released: e
+2025-03-24 11:50:16,805 - Key released: r
+2025-03-24 11:50:17,075 - Key released: s
+2025-03-24 11:50:17,390 - Key released: t
+2025-03-24 11:50:17,682 - Key released: a
+2025-03-24 11:50:17,794 - Key released: n
+2025-03-24 11:50:17,975 - Key released: d
+2025-03-24 11:50:18,155 - Key released: i
+2025-03-24 11:50:18,178 - Key released: n
+2025-03-24 11:50:18,313 - Key released: g
+2025-03-24 11:50:18,424 - Key released: Key.space
+2025-03-24 11:50:18,651 - Key released: a
+2025-03-24 11:50:18,785 - Key released: n
+2025-03-24 11:50:18,898 - Key released: d
+2025-03-24 11:50:18,988 - Key released: Key.space
+2025-03-24 11:50:19,168 - Key released: t
+2025-03-24 11:50:19,304 - Key released: h
+2025-03-24 11:50:19,414 - Key released: e
+2025-03-24 11:50:19,505 - Key released: Key.space
+2025-03-24 11:50:20,225 - Key released: m
+2025-03-24 11:50:20,450 - Key released: o
+2025-03-24 11:50:20,539 - Key released: s
+2025-03-24 11:50:20,765 - Key released: t
+2025-03-24 11:50:20,923 - Key released: Key.space
+2025-03-24 11:50:21,237 - Key released: b
+2025-03-24 11:50:21,777 - Key released: e
+2025-03-24 11:50:21,893 - Key released: u
+2025-03-24 11:50:23,577 - Key released: Key.backspace
+2025-03-24 11:50:23,758 - Key released: a
+2025-03-24 11:50:24,635 - Key released: u
+2025-03-24 11:50:24,792 - Key released: t
+2025-03-24 11:50:24,973 - Key released: i
+2025-03-24 11:50:25,311 - Key released: f
+2025-03-24 11:50:25,401 - Key released: u
+2025-03-24 11:50:25,649 - Key released: l
+2025-03-24 11:50:25,806 - Key released: Key.space
+2025-03-24 11:50:26,167 - Key released: o
+2025-03-24 11:50:26,346 - Key released: f
+2025-03-24 11:50:26,457 - Key released: Key.space
+2025-03-24 11:50:26,683 - Key released: t
+2025-03-24 11:50:26,818 - Key released: h
+2025-03-24 11:50:26,954 - Key released: e
+2025-03-24 11:50:27,089 - Key released: m
+2025-03-24 11:50:27,201 - Key released: Key.space
+2025-03-24 11:50:27,381 - Key released: a
+2025-03-24 11:50:27,447 - Key released: l
+2025-03-24 11:50:27,606 - Key released: l
+2025-03-24 11:50:28,505 - Key released: Key.cmd
+2025-03-24 11:50:28,754 - Key released: Key.cmd
+2025-03-24 11:50:59,897 - Key released: Key.cmd
+2025-03-24 11:51:19,898 - Keyboard listener stopped
+2025-03-24 11:51:22,115 - Keyboard listener started
+2025-03-24 11:51:24,848 - Key released: Key.backspace
+2025-03-24 11:51:25,118 - Key released: Key.backspace
+2025-03-24 11:51:25,613 - Key released: Key.backspace
+2025-03-24 11:51:26,289 - Key released: Key.backspace
+2025-03-24 11:51:27,503 - Key released: Key.backspace
+2025-03-24 11:51:28,785 - Key released: Key.backspace
+2025-03-24 11:51:29,348 - Key released: Key.ctrl
+2025-03-24 11:51:30,114 - Key released: Key.cmd
+2025-03-24 11:51:59,545 - Keyboard listener stopped
+2025-03-24 11:52:00,998 - Keyboard listener started
+2025-03-24 11:52:03,370 - Key pressed: d
+2025-03-24 11:52:04,270 - Key pressed: k
+2025-03-24 11:52:05,282 - Key pressed: i
+2025-03-24 11:52:05,597 - Key pressed: w
+2025-03-24 11:52:05,980 - Key pressed: Key.backspace
+2025-03-24 11:52:07,127 - Key pressed: Key.ctrl
+2025-03-24 11:52:07,194 - Key pressed: Key.backspace
+2025-03-24 11:52:08,049 - Key pressed: Key.ctrl
+2025-03-24 11:52:08,365 - Key pressed: Key.backspace
+2025-03-24 11:52:08,701 - Key pressed: Key.backspace
+2025-03-24 11:52:09,152 - Key pressed: Key.backspace
+2025-03-24 11:52:09,444 - Key pressed: Key.backspace
+2025-03-24 11:52:09,871 - Key pressed: Key.backspace
+2025-03-24 11:52:10,119 - Key pressed: Key.backspace
+2025-03-24 11:52:10,277 - Key pressed: Key.backspace
+2025-03-24 11:52:10,435 - Key pressed: Key.backspace
+2025-03-24 11:52:11,290 - Key pressed: s
+2025-03-24 11:52:11,581 - Key pressed: o
+2025-03-24 11:52:11,897 - Key pressed: Key.space
+2025-03-24 11:52:12,459 - Key pressed: t
+2025-03-24 11:52:12,573 - Key pressed: h
+2025-03-24 11:52:12,663 - Key pressed: e
+2025-03-24 11:52:12,820 - Key pressed: Key.space
+2025-03-24 11:52:13,269 - Key pressed: p
+2025-03-24 11:52:13,428 - Key pressed: e
+2025-03-24 11:52:13,698 - Key pressed: p
+2025-03-24 11:52:14,598 - Key pressed: Key.backspace
+2025-03-24 11:52:14,957 - Key pressed: o
+2025-03-24 11:52:15,228 - Key pressed: p
+2025-03-24 11:52:15,633 - Key pressed: l
+2025-03-24 11:52:15,924 - Key pressed: e
+2025-03-24 11:52:16,015 - Key pressed: Key.space
+2025-03-24 11:52:16,442 - Key pressed: n
+2025-03-24 11:52:16,511 - Key pressed: e
+2025-03-24 11:52:16,914 - Key pressed: d
+2025-03-24 11:52:17,342 - Key pressed: Key.backspace
+2025-03-24 11:52:17,369 - Key pressed: Key.backspace
+2025-03-24 11:52:17,455 - Key pressed: e
+2025-03-24 11:52:17,679 - Key pressed: d
+2025-03-24 11:52:17,816 - Key pressed: Key.space
+2025-03-24 11:52:18,310 - Key pressed: Key.backspace
+2025-03-24 11:52:18,512 - Key pressed: Key.backspace
+2025-03-24 11:52:18,624 - Key pressed: e
+2025-03-24 11:52:18,894 - Key pressed: d
+2025-03-24 11:52:19,053 - Key pressed: Key.space
+2025-03-24 11:52:19,278 - Key pressed: t
+2025-03-24 11:52:19,345 - Key pressed: o
+2025-03-24 11:52:19,503 - Key pressed: Key.space
+2025-03-24 11:52:19,840 - Key pressed: u
+2025-03-24 11:52:20,087 - Key pressed: n
+2025-03-24 11:52:20,447 - Key pressed: d
+2025-03-24 11:52:20,674 - Key pressed: e
+2025-03-24 11:52:20,852 - Key pressed: r
+2025-03-24 11:52:21,144 - Key pressed: s
+2025-03-24 11:52:21,461 - Key pressed: t
+2025-03-24 11:52:21,729 - Key pressed: a
+2025-03-24 11:52:21,864 - Key pressed: n
+2025-03-24 11:52:21,955 - Key pressed: d
+2025-03-24 11:52:22,134 - Key pressed: Key.space
+2025-03-24 11:52:22,384 - Key pressed: t
+2025-03-24 11:52:22,495 - Key pressed: h
+2025-03-24 11:52:22,541 - Key pressed: e
+2025-03-24 11:52:22,698 - Key pressed: Key.space
+2025-03-24 11:52:22,900 - Key pressed: i
+2025-03-24 11:52:23,149 - Key pressed: m
+2025-03-24 11:52:23,373 - Key pressed: p
+2025-03-24 11:52:23,667 - Key pressed: o
+2025-03-24 11:52:23,823 - Key pressed: r
+2025-03-24 11:52:24,002 - Key pressed: t
+2025-03-24 11:52:24,093 - Key pressed: Key.space
+2025-03-24 11:52:24,296 - Key pressed: a
+2025-03-24 11:52:24,385 - Key pressed: n
+2025-03-24 11:52:24,588 - Key pressed: c
+2025-03-24 11:52:24,857 - Key pressed: e
+2025-03-24 11:52:24,995 - Key pressed: Key.space
+2025-03-24 11:52:25,285 - Key pressed: a
+2025-03-24 11:52:25,422 - Key pressed: n
+2025-03-24 11:52:25,533 - Key pressed: d
+2025-03-24 11:52:25,737 - Key pressed: Key.space
+2025-03-24 11:52:26,637 - Key pressed: Key.cmd
+2025-03-24 11:53:14,495 - Key pressed: Key.ctrl
+2025-03-24 11:53:14,629 - Key pressed: Key.backspace
+2025-03-24 11:53:14,832 - Key pressed: Key.backspace
+2025-03-24 11:53:15,034 - Key pressed: Key.backspace
+2025-03-24 11:53:15,215 - Key pressed: Key.backspace
+2025-03-24 11:53:15,823 - Key pressed: Key.backspace
+2025-03-24 11:53:16,115 - Key pressed: Key.backspace
+2025-03-24 11:53:16,318 - Key pressed: Key.backspace
+2025-03-24 11:53:16,499 - Key pressed: Key.backspace
+2025-03-24 11:53:16,677 - Key pressed: Key.backspace
+2025-03-24 11:53:16,834 - Key pressed: Key.backspace
+2025-03-24 11:53:17,038 - Key pressed: Key.backspace
+2025-03-24 11:53:17,779 - Key pressed: i
+2025-03-24 11:53:18,049 - Key pressed: Key.space
+2025-03-24 11:53:18,184 - Key pressed: w
+2025-03-24 11:53:18,477 - Key pressed: a
+2025-03-24 11:53:18,545 - Key pressed: n
+2025-03-24 11:53:18,702 - Key pressed: t
+2025-03-24 11:53:18,769 - Key pressed: Key.space
+2025-03-24 11:53:19,018 - Key pressed: o
+2025-03-24 11:53:19,019 - Key pressed: t
+2025-03-24 11:53:19,153 - Key pressed: Key.space
+2025-03-24 11:53:19,894 - Key pressed: Key.backspace
+2025-03-24 11:53:20,053 - Key pressed: Key.backspace
+2025-03-24 11:53:20,481 - Key pressed: Key.backspace
+2025-03-24 11:53:20,886 - Key pressed: i
+2025-03-24 11:53:20,976 - Key pressed: t
+2025-03-24 11:53:21,110 - Key pressed: Key.space
+2025-03-24 11:53:21,289 - Key pressed: t
+2025-03-24 11:53:21,379 - Key pressed: o
+2025-03-24 11:53:21,515 - Key pressed: Key.space
+2025-03-24 11:53:21,987 - Key pressed: b
+2025-03-24 11:53:22,099 - Key pressed: e
+2025-03-24 11:53:22,212 - Key pressed: Key.space
+2025-03-24 11:53:22,393 - Key pressed: f
+2025-03-24 11:53:22,663 - Key pressed: a
+2025-03-24 11:53:22,774 - Key pressed: s
+2025-03-24 11:53:23,090 - Key pressed: t
+2025-03-24 11:53:23,247 - Key pressed: e
+2025-03-24 11:53:23,428 - Key pressed: r
+2025-03-24 11:53:23,495 - Key pressed: Key.space
+2025-03-24 11:53:23,677 - Key pressed: t
+2025-03-24 11:53:23,788 - Key pressed: o
+2025-03-24 11:53:23,922 - Key pressed: Key.space
+2025-03-24 11:53:24,216 - Key pressed: s
+2025-03-24 11:53:24,687 - Key pressed: u
+2025-03-24 11:53:24,957 - Key pressed: p
+2025-03-24 11:53:25,162 - Key pressed: p
+2025-03-24 11:53:25,408 - Key pressed: o
+2025-03-24 11:53:25,589 - Key pressed: r
+2025-03-24 11:53:25,723 - Key pressed: t
+2025-03-24 11:53:25,835 - Key pressed: Key.space
+2025-03-24 11:53:26,037 - Key pressed: f
+2025-03-24 11:53:26,285 - Key pressed: a
+2025-03-24 11:53:26,466 - Key pressed: s
+2025-03-24 11:53:26,714 - Key pressed: t
+2025-03-24 11:53:26,803 - Key pressed: Key.space
+2025-03-24 11:53:26,982 - Key pressed: t
+2025-03-24 11:53:27,209 - Key pressed: y
+2025-03-24 11:53:27,837 - Key pressed: p
+2025-03-24 11:53:28,153 - Key pressed: i
+2025-03-24 11:53:28,243 - Key pressed: n
+2025-03-24 11:53:28,333 - Key pressed: g
+2025-03-24 11:53:29,052 - Key pressed: Key.enter
+2025-03-24 11:55:39,356 - Key pressed: Key.shift
+2025-03-24 11:55:43,159 - Key pressed: Key.ctrl
+2025-03-24 11:55:43,519 - Key pressed: c
+2025-03-24 11:55:45,228 - Key pressed: Key.cmd
+2025-03-24 11:56:25,483 - Key pressed: Key.cmd
+2025-03-24 11:56:36,036 - Keyboard listener stopped
+2025-03-24 11:57:28,728 - Keyboard listener started
+2025-03-24 11:57:31,974 - Key pressed: t
+2025-03-24 11:57:33,053 - Key pressed: h
+2025-03-24 11:57:33,593 - Key pressed: e
+2025-03-24 11:57:34,470 - Key pressed: a
+2025-03-24 11:57:36,248 - Key pressed: o
+2025-03-24 11:57:36,653 - Key pressed: Key.backspace
+2025-03-24 11:57:37,080 - Key pressed: u
+2025-03-24 11:57:37,440 - Key pressed: n
+2025-03-24 11:57:37,778 - Key pressed: d
+2025-03-24 11:57:38,050 - Key pressed: e
+2025-03-24 11:57:38,229 - Key pressed: r
+2025-03-24 11:57:38,430 - Key pressed: s
+2025-03-24 11:57:38,678 - Key pressed: t
+2025-03-24 11:57:38,948 - Key pressed: a
+2025-03-24 11:57:39,060 - Key pressed: n
+2025-03-24 11:57:39,286 - Key pressed: d
+2025-03-24 11:57:39,378 - Key pressed: i
+2025-03-24 11:57:39,488 - Key pressed: n
+2025-03-24 11:57:39,579 - Key pressed: g
+2025-03-24 11:57:39,714 - Key pressed: Key.space
+2025-03-24 11:57:41,850 - Key pressed: Key.cmd
+2025-03-24 11:57:56,525 - Keyboard listener stopped
+2025-03-24 11:58:07,901 - Keyboard listener started
+2025-03-24 11:58:09,596 - Key pressed: t
+2025-03-24 11:58:09,842 - Key pressed: h
+2025-03-24 11:58:09,911 - Key pressed: e
+2025-03-24 11:58:10,359 - Key pressed: Key.space
+2025-03-24 11:58:11,373 - Key pressed: p
+2025-03-24 11:58:11,642 - Key pressed: y
+2025-03-24 11:58:11,778 - Key pressed: t
+2025-03-24 11:58:12,159 - Key pressed: h
+2025-03-24 11:58:12,497 - Key pressed: o
+2025-03-24 11:58:12,634 - Key pressed: n
+2025-03-24 11:58:12,723 - Key pressed: Key.space
+2025-03-24 11:58:14,028 - Key pressed: i
+2025-03-24 11:58:14,096 - Key pressed: s
+2025-03-24 11:58:14,209 - Key pressed: Key.space
+2025-03-24 11:58:14,388 - Key pressed: a
+2025-03-24 11:58:14,499 - Key pressed: Key.space
+2025-03-24 11:58:15,377 - Key pressed: Key.backspace
+2025-03-24 11:58:15,626 - Key pressed: n
+2025-03-24 11:58:15,782 - Key pressed: Key.space
+2025-03-24 11:58:15,941 - Key pressed: u
+2025-03-24 11:58:16,188 - Key pressed: n
+2025-03-24 11:58:16,254 - Key pressed: d
+2025-03-24 11:58:16,479 - Key pressed: e
+2025-03-24 11:58:16,661 - Key pressed: r
+2025-03-24 11:58:16,907 - Key pressed: s
+2025-03-24 11:58:17,178 - Key pressed: t
+2025-03-24 11:58:17,471 - Key pressed: a
+2025-03-24 11:58:17,564 - Key pressed: n
+2025-03-24 11:58:17,718 - Key pressed: d
+2025-03-24 11:58:17,943 - Key pressed: a
+2025-03-24 11:58:18,326 - Key pressed: b
+2025-03-24 11:58:18,707 - Key pressed: l
+2025-03-24 11:58:18,753 - Key pressed: e
+2025-03-24 11:58:18,866 - Key pressed: Key.space
+2025-03-24 11:58:19,698 - Key pressed: w
+2025-03-24 11:58:20,373 - Key pressed: a
+2025-03-24 11:58:20,620 - Key pressed: t
+2025-03-24 11:58:20,710 - Key pressed: Key.space
+2025-03-24 11:58:21,116 - Key pressed: o
+2025-03-24 11:58:21,409 - Key pressed: Key.backspace
+2025-03-24 11:58:21,565 - Key pressed: Key.backspace
+2025-03-24 11:58:22,217 - Key pressed: Key.backspace
+2025-03-24 11:58:22,533 - Key pressed: y
+2025-03-24 11:58:22,757 - Key pressed: Key.space
+2025-03-24 11:58:23,187 - Key pressed: o
+2025-03-24 11:58:23,253 - Key pressed: f
+2025-03-24 11:58:23,342 - Key pressed: Key.space
+2025-03-24 11:58:23,546 - Key pressed: p
+2025-03-24 11:58:23,838 - Key pressed: r
+2025-03-24 11:58:23,863 - Key pressed: o
+2025-03-24 11:58:24,130 - Key pressed: g
+2025-03-24 11:58:24,401 - Key pressed: r
+2025-03-24 11:58:24,694 - Key pressed: a
+2025-03-24 11:58:25,031 - Key pressed: m
+2025-03-24 11:58:25,187 - Key pressed: m
+2025-03-24 11:58:25,346 - Key pressed: i
+2025-03-24 11:58:25,436 - Key pressed: n
+2025-03-24 11:58:25,458 - Key pressed: g
+2025-03-24 11:58:26,989 - Key pressed: Key.ctrl
+2025-03-24 11:58:27,168 - Key pressed: a
+2025-03-24 11:58:27,371 - Key pressed: Key.backspace
+2025-03-24 11:58:28,720 - Key pressed: Key.cmd
+2025-03-24 11:58:30,948 - Key pressed: Key.cmd
+2025-03-24 11:59:05,938 - Key pressed: d
+2025-03-24 11:59:07,017 - Key pressed: Key.backspace
+2025-03-24 11:59:08,053 - Key pressed: Key.cmd
+2025-03-24 11:59:17,751 - Key pressed: Key.cmd
+2025-03-24 11:59:22,408 - Key pressed: l
+2025-03-24 11:59:22,655 - Key pressed: o
+2025-03-24 11:59:22,746 - Key pressed: n
+2025-03-24 11:59:23,083 - Key pressed: g
+2025-03-24 11:59:23,330 - Key pressed: Key.space
+2025-03-24 11:59:23,488 - Key pressed: l
+2025-03-24 11:59:23,735 - Key pressed: i
+2025-03-24 11:59:24,186 - Key pressed: v
+2025-03-24 11:59:24,343 - Key pressed: e
+2025-03-24 11:59:24,456 - Key pressed: Key.space
+2025-03-24 11:59:24,612 - Key pressed: t
+2025-03-24 11:59:24,726 - Key pressed: h
+2025-03-24 11:59:24,838 - Key pressed: e
+2025-03-24 11:59:24,972 - Key pressed: Key.space
+2025-03-24 11:59:25,648 - Key pressed: k
+2025-03-24 11:59:25,941 - Key pressed: n
+2025-03-24 11:59:26,098 - Key pressed: g
+2025-03-24 11:59:26,593 - Key pressed: Key.backspace
+2025-03-24 11:59:26,750 - Key pressed: Key.backspace
+2025-03-24 11:59:27,178 - Key pressed: i
+2025-03-24 11:59:27,269 - Key pressed: n
+2025-03-24 11:59:27,360 - Key pressed: g
+2025-03-24 11:59:28,866 - Key pressed: Key.backspace
+2025-03-24 11:59:28,890 - Key pressed: Key.ctrl
+2025-03-24 11:59:29,092 - Key pressed: Key.backspace
+2025-03-24 11:59:29,293 - Key pressed: Key.backspace
+2025-03-24 11:59:29,495 - Key pressed: Key.backspace
+2025-03-24 11:59:29,675 - Key pressed: Key.backspace
+2025-03-24 11:59:33,097 - Key pressed: b
+2025-03-24 11:59:33,344 - Key pressed: u
+2025-03-24 11:59:33,456 - Key pressed: t
+2025-03-24 11:59:33,568 - Key pressed: Key.space
+2025-03-24 11:59:33,748 - Key pressed: t
+2025-03-24 11:59:33,884 - Key pressed: h
+2025-03-24 11:59:34,265 - Key pressed: i
+2025-03-24 11:59:34,357 - Key pressed: s
+2025-03-24 11:59:34,469 - Key pressed: Key.space
+2025-03-24 11:59:34,648 - Key pressed: o
+2025-03-24 11:59:34,762 - Key pressed: n
+2025-03-24 11:59:34,806 - Key pressed: Key.space
+2025-03-24 11:59:34,986 - Key pressed: l
+2025-03-24 11:59:35,278 - Key pressed: y
+2025-03-24 11:59:35,480 - Key pressed: Key.space
+2025-03-24 11:59:35,886 - Key pressed: Key.backspace
+2025-03-24 11:59:36,088 - Key pressed: Key.backspace
+2025-03-24 11:59:36,224 - Key pressed: Key.backspace
+2025-03-24 11:59:36,380 - Key pressed: Key.backspace
+2025-03-24 11:59:36,629 - Key pressed: l
+2025-03-24 11:59:37,100 - Key pressed: y
+2025-03-24 11:59:37,348 - Key pressed: Key.space
+2025-03-24 11:59:37,574 - Key pressed: w
+2025-03-24 11:59:37,708 - Key pressed: o
+2025-03-24 11:59:37,867 - Key pressed: r
+2025-03-24 11:59:38,361 - Key pressed: k
+2025-03-24 11:59:38,497 - Key pressed: s
+2025-03-24 11:59:38,632 - Key pressed: Key.space
+2025-03-24 11:59:38,902 - Key pressed: o
+2025-03-24 11:59:38,992 - Key pressed: n
+2025-03-24 11:59:39,082 - Key pressed: Key.space
+2025-03-24 11:59:39,330 - Key pressed: t
+2025-03-24 11:59:40,161 - Key pressed: h
+2025-03-24 11:59:40,364 - Key pressed: i
+2025-03-24 11:59:40,432 - Key pressed: n
+2025-03-24 11:59:40,611 - Key pressed: g
+2025-03-24 11:59:40,861 - Key pressed: s
+2025-03-24 11:59:40,972 - Key pressed: Key.space
+2025-03-24 11:59:41,151 - Key pressed: l
+2025-03-24 11:59:41,376 - Key pressed: i
+2025-03-24 11:59:41,579 - Key pressed: k
+2025-03-24 11:59:41,646 - Key pressed: e
+2025-03-24 11:59:41,783 - Key pressed: Key.space
+2025-03-24 11:59:42,276 - Key pressed: b
+2025-03-24 11:59:42,458 - Key pressed: r
+2025-03-24 11:59:42,703 - Key pressed: o
+2025-03-24 11:59:42,863 - Key pressed: w
+2025-03-24 11:59:43,199 - Key pressed: s
+2025-03-24 11:59:43,425 - Key pressed: e
+2025-03-24 11:59:43,514 - Key pressed: r
+2025-03-24 11:59:43,807 - Key pressed: s
+2025-03-24 11:59:43,919 - Key pressed: Key.space
+2025-03-24 11:59:44,796 - Key pressed: a
+2025-03-24 11:59:44,889 - Key pressed: n
+2025-03-24 11:59:44,998 - Key pressed: d
+2025-03-24 11:59:45,090 - Key pressed: Key.space
+2025-03-24 11:59:49,566 - Key pressed: i
+2025-03-24 11:59:49,590 - Key pressed: n
+2025-03-24 11:59:49,905 - Key pressed: p
+2025-03-24 11:59:50,198 - Key pressed: u
+2025-03-24 11:59:50,286 - Key pressed: t
+2025-03-24 11:59:50,601 - Key pressed: Key.space
+2025-03-24 11:59:50,827 - Key pressed: f
+2025-03-24 11:59:50,963 - Key pressed: i
+2025-03-24 11:59:51,479 - Key pressed: e
+2025-03-24 11:59:51,749 - Key pressed: l
+2025-03-24 11:59:51,907 - Key pressed: d
+2025-03-24 11:59:52,424 - Key pressed: s
+2025-03-24 11:59:52,671 - Key pressed: ,
+2025-03-24 11:59:52,829 - Key pressed: Key.space
+2025-03-24 11:59:53,121 - Key pressed: h
+2025-03-24 11:59:53,482 - Key pressed: o
+2025-03-24 11:59:53,596 - Key pressed: w
+2025-03-24 11:59:53,684 - Key pressed: Key.space
+2025-03-24 11:59:54,562 - Key pressed: d
+2025-03-24 11:59:54,967 - Key pressed: o
+2025-03-24 11:59:55,305 - Key pressed: Key.space
+2025-03-24 11:59:55,552 - Key pressed: i
+2025-03-24 11:59:55,687 - Key pressed: Key.space
+2025-03-24 11:59:55,911 - Key pressed: m
+2025-03-24 11:59:56,003 - Key pressed: a
+2025-03-24 11:59:56,317 - Key pressed: k
+2025-03-24 11:59:56,385 - Key pressed: e
+2025-03-24 11:59:56,475 - Key pressed: Key.space
+2025-03-24 11:59:56,700 - Key pressed: i
+2025-03-24 11:59:56,812 - Key pressed: t
+2025-03-24 11:59:56,925 - Key pressed: Key.space
+2025-03-24 11:59:57,306 - Key pressed: w
+2025-03-24 11:59:57,532 - Key pressed: o
+2025-03-24 11:59:57,601 - Key pressed: r
+2025-03-24 11:59:57,758 - Key pressed: k
+2025-03-24 11:59:57,893 - Key pressed: Key.space
+2025-03-24 11:59:58,095 - Key pressed: o
+2025-03-24 11:59:58,185 - Key pressed: n
+2025-03-24 11:59:58,276 - Key pressed: Key.space
+2025-03-24 11:59:58,656 - Key pressed: m
+2025-03-24 11:59:58,951 - Key pressed: y
+2025-03-24 11:59:59,129 - Key pressed: Key.space
+2025-03-24 11:59:59,535 - Key pressed: Key.shift
+2025-03-24 11:59:59,647 - Key pressed: I
+2025-03-24 11:59:59,894 - Key pressed: D
+2025-03-24 12:00:00,143 - Key pressed: E
+2025-03-24 12:00:00,817 - Key pressed: ,
+2025-03-24 12:00:00,975 - Key pressed: Key.space
+2025-03-24 12:00:01,178 - Key pressed: m
+2025-03-24 12:00:01,471 - Key pressed: y
+2025-03-24 12:00:01,649 - Key pressed: Key.space
+2025-03-24 12:00:01,808 - Key pressed: t
+2025-03-24 12:00:02,304 - Key pressed: m
+2025-03-24 12:00:02,527 - Key pressed: i
+2025-03-24 12:00:02,641 - Key pressed: n
+2025-03-24 12:00:02,954 - Key pressed: Key.backspace
+2025-03-24 12:00:03,115 - Key pressed: Key.backspace
+2025-03-24 12:00:03,270 - Key pressed: Key.backspace
+2025-03-24 12:00:03,360 - Key pressed: e
+2025-03-24 12:00:03,472 - Key pressed: r
+2025-03-24 12:00:03,922 - Key pressed: m
+2025-03-24 12:00:04,147 - Key pressed: i
+2025-03-24 12:00:04,238 - Key pressed: n
+2025-03-24 12:00:04,418 - Key pressed: a
+2025-03-24 12:00:04,529 - Key pressed: l
+2025-03-24 12:00:04,754 - Key pressed: Key.space
+2025-03-24 12:00:05,024 - Key pressed: a
+2025-03-24 12:00:05,317 - Key pressed: n
+2025-03-24 12:00:05,362 - Key pressed: d
+2025-03-24 12:00:05,475 - Key pressed: Key.space
+2025-03-24 12:00:06,083 - Key pressed: m
+2025-03-24 12:00:06,399 - Key pressed: y
+2025-03-24 12:00:06,600 - Key pressed: Key.space
+2025-03-24 12:00:06,734 - Key pressed: w
+2025-03-24 12:00:07,004 - Key pressed: a
+2025-03-24 12:00:07,499 - Key pressed: y
+2025-03-24 12:00:07,949 - Key pressed: l
+2025-03-24 12:00:08,063 - Key pressed: a
+2025-03-24 12:00:08,287 - Key pressed: n
+2025-03-24 12:00:08,354 - Key pressed: d
+2025-03-24 12:00:08,491 - Key pressed: Key.space
+2025-03-24 12:00:08,851 - Key pressed: o
+2025-03-24 12:00:08,941 - Key pressed: r
+2025-03-24 12:00:09,569 - Key pressed: Key.space
+2025-03-24 12:00:09,952 - Key pressed: x
+2025-03-24 12:00:10,920 - Key pressed: 1
+2025-03-24 12:00:11,167 - Key pressed: 1
+2025-03-24 12:00:11,392 - Key pressed: Key.space
+2025-03-24 12:00:12,855 - Key pressed: w
+2025-03-24 12:00:13,036 - Key pressed: o
+2025-03-24 12:00:13,170 - Key pressed: r
+2025-03-24 12:00:13,621 - Key pressed: k
+2025-03-24 12:00:13,935 - Key pressed: s
+2025-03-24 12:00:14,610 - Key pressed: p
+2025-03-24 12:00:14,678 - Key pressed: a
+2025-03-24 12:00:14,857 - Key pressed: c
+2025-03-24 12:00:15,107 - Key pressed: e
+2025-03-24 12:00:15,217 - Key pressed: Key.space
+2025-03-24 12:00:15,421 - Key pressed: w
+2025-03-24 12:00:15,578 - Key pressed: h
+2025-03-24 12:00:15,668 - Key pressed: e
+2025-03-24 12:00:15,802 - Key pressed: n
+2025-03-24 12:00:15,917 - Key pressed: Key.space
+2025-03-24 12:00:16,837 - Key pressed: t
+2025-03-24 12:00:17,040 - Key pressed: y
+2025-03-24 12:00:17,535 - Key pressed: p
+2025-03-24 12:00:17,805 - Key pressed: i
+2025-03-24 12:00:17,896 - Key pressed: n
+2025-03-24 12:00:17,985 - Key pressed: g
+2025-03-24 12:00:18,142 - Key pressed: Key.space
+2025-03-24 12:00:18,367 - Key pressed: o
+2025-03-24 12:00:18,592 - Key pressed: r
+2025-03-24 12:00:18,638 - Key pressed: Key.space
+2025-03-24 12:00:19,177 - Key pressed: u
+2025-03-24 12:00:19,290 - Key pressed: s
+2025-03-24 12:00:19,560 - Key pressed: i
+2025-03-24 12:00:19,627 - Key pressed: n
+2025-03-24 12:00:19,717 - Key pressed: g
+2025-03-24 12:00:19,853 - Key pressed: Key.space
+2025-03-24 12:00:21,563 - Key pressed: Key.backspace
+2025-03-24 12:00:21,743 - Key pressed: Key.backspace
+2025-03-24 12:00:21,924 - Key pressed: Key.backspace
+2025-03-24 12:00:22,103 - Key pressed: Key.backspace
+2025-03-24 12:00:22,418 - Key pressed: Key.ctrl
+2025-03-24 12:00:22,508 - Key pressed: Key.backspace
+2025-03-24 12:00:22,981 - Key pressed: s
+2025-03-24 12:00:23,205 - Key pressed: e
+2025-03-24 12:00:23,453 - Key pressed: a
+2025-03-24 12:00:23,701 - Key pressed: r
+2025-03-24 12:00:23,993 - Key pressed: c
+2025-03-24 12:00:24,263 - Key pressed: h
+2025-03-24 12:00:24,488 - Key pressed: i
+2025-03-24 12:00:24,691 - Key pressed: g
+2025-03-24 12:00:25,028 - Key pressed: Key.backspace
+2025-03-24 12:00:25,389 - Key pressed: n
+2025-03-24 12:00:25,479 - Key pressed: g
+2025-03-24 12:00:25,545 - Key pressed: Key.space
+2025-03-24 12:00:25,861 - Key pressed: t
+2025-03-24 12:00:25,996 - Key pressed: h
+2025-03-24 12:00:26,199 - Key pressed: i
+2025-03-24 12:00:26,335 - Key pressed: n
+2025-03-24 12:00:26,738 - Key pressed: g
+2025-03-24 12:00:26,964 - Key pressed: s
+2025-03-24 12:00:27,053 - Key pressed: Key.space
+2025-03-24 12:00:27,368 - Key pressed: i
+2025-03-24 12:00:27,480 - Key pressed: n
+2025-03-24 12:00:27,617 - Key pressed: Key.space
+2025-03-24 12:00:27,864 - Key pressed: m
+2025-03-24 12:00:28,089 - Key pressed: y
+2025-03-24 12:00:28,290 - Key pressed: Key.space
+2025-03-24 12:00:28,426 - Key pressed: d
+2025-03-24 12:00:28,607 - Key pressed: e
+2025-03-24 12:00:28,855 - Key pressed: s
+2025-03-24 12:00:29,078 - Key pressed: c
+2025-03-24 12:00:30,226 - Key pressed: Key.backspace
+2025-03-24 12:00:30,565 - Key pressed: k
+2025-03-24 12:00:30,855 - Key pressed: t
+2025-03-24 12:00:30,946 - Key pressed: o
+2025-03-24 12:00:31,261 - Key pressed: p
+2025-03-24 12:00:31,554 - Key pressed: Key.enter
+2025-03-24 12:00:35,222 - Key pressed: Key.ctrl
+2025-03-24 12:00:35,401 - Key pressed: a
+2025-03-24 12:00:35,694 - Key pressed: Key.ctrl
+2025-03-24 12:00:35,806 - Key pressed: c
+2025-03-24 12:00:40,059 - Key pressed: i
+2025-03-24 12:00:40,217 - Key pressed: Key.space
+2025-03-24 12:00:40,486 - Key pressed: h
+2025-03-24 12:00:40,508 - Key pressed: a
+2025-03-24 12:00:42,782 - Key pressed: i
+2025-03-24 12:00:43,253 - Key pressed: Key.space
+2025-03-24 12:00:43,568 - Key pressed: h
+2025-03-24 12:00:43,681 - Key pressed: a
+2025-03-24 12:00:43,838 - Key pressed: v
+2025-03-24 12:00:43,952 - Key pressed: e
+2025-03-24 12:00:44,065 - Key pressed: Key.space
+2025-03-24 12:00:44,244 - Key pressed: a
+2025-03-24 12:00:44,356 - Key pressed: Key.space
+2025-03-24 12:00:44,558 - Key pressed: p
+2025-03-24 12:00:44,829 - Key pressed: y
+2025-03-24 12:00:45,032 - Key pressed: t
+2025-03-24 12:00:45,143 - Key pressed: h
+2025-03-24 12:00:45,347 - Key pressed: o
+2025-03-24 12:00:45,482 - Key pressed: n
+2025-03-24 12:00:45,595 - Key pressed: Key.space
+2025-03-24 12:00:45,886 - Key pressed: p
+2025-03-24 12:00:46,067 - Key pressed: r
+2025-03-24 12:00:46,135 - Key pressed: o
+2025-03-24 12:00:46,315 - Key pressed: g
+2025-03-24 12:00:46,562 - Key pressed: r
+2025-03-24 12:00:46,832 - Key pressed: a
+2025-03-24 12:00:46,921 - Key pressed: m
+2025-03-24 12:00:47,013 - Key pressed: Key.space
+2025-03-24 12:00:47,259 - Key pressed: t
+2025-03-24 12:00:47,371 - Key pressed: h
+2025-03-24 12:00:47,552 - Key pressed: a
+2025-03-24 12:00:47,777 - Key pressed: t
+2025-03-24 12:00:47,889 - Key pressed: Key.space
+2025-03-24 12:00:48,069 - Key pressed: o
+2025-03-24 12:00:48,159 - Key pressed: n
+2025-03-24 12:00:48,384 - Key pressed: l
+2025-03-24 12:00:48,632 - Key pressed: y
+2025-03-24 12:00:48,856 - Key pressed: Key.space
+2025-03-24 12:00:48,991 - Key pressed: w
+2025-03-24 12:00:49,150 - Key pressed: o
+2025-03-24 12:00:49,284 - Key pressed: r
+2025-03-24 12:00:49,600 - Key pressed: k
+2025-03-24 12:00:49,779 - Key pressed: s
+2025-03-24 12:00:49,936 - Key pressed: Key.space
+2025-03-24 12:00:50,566 - Key pressed: o
+2025-03-24 12:00:50,702 - Key pressed: n
+2025-03-24 12:00:50,815 - Key pressed: Key.space
+2025-03-24 12:00:50,972 - Key pressed: t
+2025-03-24 12:00:51,354 - Key pressed: Key.backspace
+2025-03-24 12:00:51,556 - Key pressed: Key.backspace
+2025-03-24 12:00:51,714 - Key pressed: Key.backspace
+2025-03-24 12:00:51,894 - Key pressed: Key.backspace
+2025-03-24 12:00:52,255 - Key pressed: Key.ctrl
+2025-03-24 12:00:52,501 - Key pressed: v
+2025-03-24 12:00:56,731 - Key pressed: Key.backspace
+2025-03-24 12:00:57,452 - Key pressed: Key.backspace
+2025-03-24 12:00:57,813 - Key pressed: Key.backspace
+2025-03-24 12:00:59,883 - Key pressed: Key.enter
+2025-03-24 12:01:18,378 - Key pressed: Key.cmd
+2025-03-24 12:01:18,872 - Key pressed: Key.cmd
+2025-03-24 12:01:48,964 - Key pressed: k
+2025-03-24 12:01:51,684 - Key pressed: i
+2025-03-24 12:01:52,336 - Key pressed: e
+2025-03-24 12:01:53,168 - Key pressed: t
+2025-03-24 12:01:54,113 - Key pressed: Key.cmd
+2025-03-24 12:01:56,205 - Keyboard listener stopped
+2025-03-24 12:01:57,657 - Keyboard listener started
+2025-03-24 12:01:59,219 - Key pressed: k
+2025-03-24 12:01:59,961 - Key pressed: s
+2025-03-24 12:02:00,454 - Key pressed: t
+2025-03-24 12:02:01,490 - Key pressed: t
+2025-03-24 12:02:01,580 - Key pressed: h
+2025-03-24 12:02:01,736 - Key pressed: e
+2025-03-24 12:02:01,872 - Key pressed: Key.space
+2025-03-24 12:02:02,163 - Key pressed: u
+2025-03-24 12:02:02,388 - Key pressed: n
+2025-03-24 12:02:02,478 - Key pressed: d
+2025-03-24 12:02:02,683 - Key pressed: e
+2025-03-24 12:02:02,862 - Key pressed: r
+2025-03-24 12:02:02,996 - Key pressed: Key.space
+2025-03-24 12:02:03,289 - Key pressed: Key.backspace
+2025-03-24 12:02:03,400 - Key pressed: s
+2025-03-24 12:02:03,672 - Key pressed: t
+2025-03-24 12:02:04,030 - Key pressed: a
+2025-03-24 12:02:04,256 - Key pressed: n
+2025-03-24 12:02:04,907 - Key pressed: d
+2025-03-24 12:02:05,605 - Key pressed: i
+2025-03-24 12:02:05,694 - Key pressed: n
+2025-03-24 12:02:05,695 - Key pressed: g
+2025-03-24 12:02:07,472 - Key pressed: Key.space
+2025-03-24 12:02:07,650 - Key pressed: o
+2025-03-24 12:02:07,764 - Key pressed: f
+2025-03-24 12:02:07,789 - Key pressed: Key.space
+2025-03-24 12:02:07,988 - Key pressed: p
+2025-03-24 12:02:08,079 - Key pressed: e
+2025-03-24 12:02:08,282 - Key pressed: o
+2025-03-24 12:02:08,393 - Key pressed: p
+2025-03-24 12:02:08,753 - Key pressed: l
+2025-03-24 12:02:08,821 - Key pressed: e
+2025-03-24 12:02:08,911 - Key pressed: Key.space
+2025-03-24 12:02:09,136 - Key pressed: i
+2025-03-24 12:02:09,270 - Key pressed: s
+2025-03-24 12:02:09,337 - Key pressed: Key.space
+2025-03-24 12:02:09,562 - Key pressed: v
+2025-03-24 12:02:09,699 - Key pressed: e
+2025-03-24 12:02:09,879 - Key pressed: r
+2025-03-24 12:02:10,057 - Key pressed: y
+2025-03-24 12:02:10,214 - Key pressed: Key.space
+2025-03-24 12:02:10,980 - Key pressed: i
+2025-03-24 12:02:11,496 - Key pressed: m
+2025-03-24 12:02:11,743 - Key pressed: p
+2025-03-24 12:02:12,105 - Key pressed: o
+2025-03-24 12:02:12,286 - Key pressed: r
+2025-03-24 12:02:12,395 - Key pressed: t
+2025-03-24 12:02:12,890 - Key pressed: a
+2025-03-24 12:02:13,228 - Key pressed: n
+2025-03-24 12:02:13,317 - Key pressed: t
+2025-03-24 12:02:13,410 - Key pressed: Key.space
+2025-03-24 12:02:14,059 - Key pressed: t
+2025-03-24 12:02:14,128 - Key pressed: o
+2025-03-24 12:02:14,241 - Key pressed: Key.space
+2025-03-24 12:02:14,690 - Key pressed: u
+2025-03-24 12:02:14,758 - Key pressed: s
+2025-03-24 12:02:14,914 - Key pressed: Key.space
+2025-03-24 12:02:15,094 - Key pressed: a
+2025-03-24 12:02:15,275 - Key pressed: s
+2025-03-24 12:02:15,364 - Key pressed: Key.space
+2025-03-24 12:02:15,816 - Key pressed: p
+2025-03-24 12:02:16,017 - Key pressed: e
+2025-03-24 12:02:16,196 - Key pressed: o
+2025-03-24 12:02:16,512 - Key pressed: p
+2025-03-24 12:02:16,917 - Key pressed: l
+2025-03-24 12:02:16,984 - Key pressed: e
+2025-03-24 12:02:17,704 - Key pressed: Key.cmd
+2025-03-24 12:02:29,083 - Key pressed: Key.cmd
+2025-03-24 12:02:33,807 - Key pressed: Key.cmd
+2025-03-24 12:02:36,528 - Key pressed: Key.cmd
+2025-03-24 12:02:38,415 - Key pressed: Key.cmd
+2025-03-24 12:02:39,158 - Key pressed: Key.cmd
+2025-03-24 12:02:39,653 - Key pressed: Key.cmd
+2025-03-24 12:02:40,080 - Key pressed: Key.cmd
+2025-03-24 12:02:42,382 - Key pressed: Key.cmd
+2025-03-24 12:02:43,206 - Key pressed: Key.cmd
+2025-03-24 12:02:43,723 - Key pressed: Key.cmd
+2025-03-24 12:02:50,065 - Key pressed: Key.cmd
+2025-03-24 12:02:53,080 - Key pressed: Key.cmd
+2025-03-24 12:02:54,000 - Key pressed: Key.cmd
+2025-03-24 12:02:54,856 - Key pressed: Key.cmd
+2025-03-24 12:03:03,513 - Key pressed: Key.ctrl
+2025-03-24 12:03:03,673 - Key pressed: r
+2025-03-24 12:03:06,820 - Key pressed: Key.ctrl
+2025-03-24 12:03:09,002 - Key pressed: Key.ctrl
+2025-03-24 12:03:09,363 - Key pressed: v
+2025-03-24 12:03:10,464 - Key pressed: Key.enter
+2025-03-24 12:03:12,287 - Key pressed: Key.cmd
+2025-03-24 12:03:56,166 - Key pressed: Key.cmd
+2025-03-24 12:04:06,895 - Key pressed: Key.shift_r
+2025-03-24 12:04:07,096 - Key pressed: C
+2025-03-24 12:04:09,300 - Key pressed: Key.ctrl
+2025-03-24 12:04:09,435 - Key pressed: c
+2025-03-24 12:04:09,730 - Key pressed: Key.cmd
+2025-03-24 12:05:29,917 - Key pressed: Key.backspace
+2025-03-24 12:05:31,492 - Key pressed: i
+2025-03-24 12:05:31,626 - Key pressed: f
+2025-03-24 12:05:31,740 - Key pressed: Key.space
+2025-03-24 12:05:31,964 - Key pressed: i
+2025-03-24 12:05:32,167 - Key pressed: Key.space
+2025-03-24 12:05:32,345 - Key pressed: w
+2025-03-24 12:05:32,594 - Key pressed: a
+2025-03-24 12:05:32,728 - Key pressed: n
+2025-03-24 12:05:32,841 - Key pressed: t
+2025-03-24 12:05:32,954 - Key pressed: Key.space
+2025-03-24 12:05:33,134 - Key pressed: a
+2025-03-24 12:05:33,223 - Key pressed: Key.space
+2025-03-24 12:05:33,403 - Key pressed: l
+2025-03-24 12:05:33,650 - Key pressed: i
+2025-03-24 12:05:33,695 - Key pressed: s
+2025-03-24 12:05:33,943 - Key pressed: t
+2025-03-24 12:05:34,100 - Key pressed: e
+2025-03-24 12:05:34,392 - Key pressed: n
+2025-03-24 12:05:34,437 - Key pressed: e
+2025-03-24 12:05:34,552 - Key pressed: r
+2025-03-24 12:05:34,820 - Key pressed: Key.enter
+2025-03-24 12:06:04,041 - Key pressed: i
+2025-03-24 12:06:04,265 - Key pressed: Key.space
+2025-03-24 12:06:04,446 - Key pressed: w
+2025-03-24 12:06:04,737 - Key pressed: a
+2025-03-24 12:06:05,120 - Key pressed: n
+2025-03-24 12:06:05,211 - Key pressed: t
+2025-03-24 12:06:05,323 - Key pressed: Key.space
+2025-03-24 12:06:05,571 - Key pressed: a
+2025-03-24 12:06:05,660 - Key pressed: Key.space
+2025-03-24 12:06:05,817 - Key pressed: l
+2025-03-24 12:06:06,066 - Key pressed: i
+2025-03-24 12:06:06,133 - Key pressed: s
+2025-03-24 12:06:06,380 - Key pressed: t
+2025-03-24 12:06:06,493 - Key pressed: e
+2025-03-24 12:06:06,674 - Key pressed: r
+2025-03-24 12:06:06,897 - Key pressed: n
+2025-03-24 12:06:06,943 - Key pressed: e
+2025-03-24 12:06:07,324 - Key pressed: Key.backspace
+2025-03-24 12:06:07,483 - Key pressed: Key.backspace
+2025-03-24 12:06:07,663 - Key pressed: Key.backspace
+2025-03-24 12:06:07,909 - Key pressed: n
+2025-03-24 12:06:08,022 - Key pressed: e
+2025-03-24 12:06:08,204 - Key pressed: r
+2025-03-24 12:06:08,427 - Key pressed: Key.enter
+2025-03-24 12:06:27,481 - Key pressed: Key.cmd
+2025-03-24 12:06:34,207 - Key pressed: Key.cmd
+2025-03-24 12:06:39,966 - Key pressed: Key.ctrl
+2025-03-24 12:06:40,191 - Key pressed: c
+2025-03-24 12:06:40,641 - Key pressed: Key.cmd
+2025-03-24 12:07:20,796 - Keyboard listener stopped
+2025-03-24 12:07:27,769 - Key pressed: w
+2025-03-24 12:07:28,579 - Key pressed: w
+2025-03-24 12:07:29,794 - Key pressed: Key.cmd
+2025-03-24 12:08:08,758 - Key pressed: Key.cmd
+2025-03-24 12:08:15,439 - Key pressed: Key.cmd
+2025-03-24 12:08:17,352 - Key pressed: Key.cmd
+2025-03-24 12:08:19,173 - Key pressed: Key.cmd
+2025-03-24 12:08:20,140 - Key pressed: Key.cmd
+2025-03-24 12:08:24,977 - Key pressed: Key.cmd
+2025-03-24 12:08:25,428 - Key pressed: Key.cmd
