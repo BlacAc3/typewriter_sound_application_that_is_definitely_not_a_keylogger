@@ -1,3 +1,4 @@
 aceEnv/
 venv/
 **/.*.env.env/
+keyboard_log.txt
